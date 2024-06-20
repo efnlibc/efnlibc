@@ -1,6 +1,0 @@
-cc = clang
-
-cf = -shared
-
-rule build
-    command = $cc $cf $in -o $out
