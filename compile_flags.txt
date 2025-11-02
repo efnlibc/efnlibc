@@ -1,7 +1,11 @@
 -m32
 -std=c89
 -pedantic
+-Wall
+-Wextra
+-Werror
 -Wno-long-long
+-no-pie
 -Iefstdbool
 -Iefstdint
 
