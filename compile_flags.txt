@@ -1,2 +1,7 @@
--Iefstdbool/
--Iefstdint/
+-m32
+-std=c89
+-pedantic
+-Wno-long-long
+-Iefstdbool
+-Iefstdint
+
