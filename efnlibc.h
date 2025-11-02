@@ -4,5 +4,11 @@
 #include <stdbool.h>
 #include <stdint.h>
 
+#ifdef _STDBOOL_H
+#endif
+
+#ifdef _STDINT_H
+#endif
+
 #endif
 
