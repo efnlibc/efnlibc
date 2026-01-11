@@ -1,8 +1,0 @@
-[submodule "efstdbool"]
-	path = efstdbool
-	url = https://github.com/efnlibc/efstdbool.git
-	branch = master
-[submodule "efstdint"]
-	path = efstdint
-	url = https://github.com/efnlibc/efstdint.git
-	branch = master
