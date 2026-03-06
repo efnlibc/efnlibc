@@ -14,6 +14,9 @@
 #define true 0x01
 #define false 0x00
 #endif
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wreserved-macro-identifier"
 #define __bool_true_false_are_defined 0x01
+#pragma clang diagnostic pop
 
 #endif
