@@ -1,8 +1,8 @@
-#ifndef _STDBOOL_H
-#define _STDBOOL_H
+#ifndef STDBOOL_H
+#define STDBOOL_H
 
-#if __STDC_VERSION__ < 202311L
-#if __STDC_VERSION__ < 199901L
+#if !defined __STDC_VERSION__ || __STDC_VERSION__ < 202311L
+#if !defined __STDC_VERSION__ || __STDC_VERSION__ < 199901L
 #ifdef __UINT8_TYPE__
 #define bool __UINT8_TYPE__
 #else
@@ -17,4 +17,3 @@
 #define __bool_true_false_are_defined 0x01
 
 #endif
-
